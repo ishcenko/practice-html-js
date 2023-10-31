@@ -1,0 +1,2 @@
+var items=document.querySelectorAll(".item"),expand=function(e,c){items.forEach((function(e,i){c!==i&&(e.clicked=!1)})),gsap.to(items,{width:e.clicked?"15vw":"8vw",duration:2,ease:"elastic(1, .6)"}),e.clicked=!e.clicked,gsap.to(e,{width:e.clicked?"42vw":"15vw",duration:2.5,ease:"elastic(1, .3)"})};items.forEach((function(e,c){e.clicked=!1,e.addEventListener("click",(function(){return expand(e,c)}))}));
+//# sourceMappingURL=index.864dabef.js.map
