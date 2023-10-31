@@ -8,7 +8,116 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practice</title>
+        <link rel="stylesheet" href="./styled.css" />
+      </head>
+      <body>
+        <h1>Practice</h1>
+        <section class="gallery">
+          <h2>Галерея для зображень із розтяжним вибраним елементом.</h2>
+          <div class="group">
+            <div class="item">
+              <img
+                srcset="
+                  ./image/image114-2x.jpg 2x,
+                  ./image/image114-3x.jpg 3x,
+                  ./image/image114-4x.jpg 4x
+                "
+                src="./image/image114-1x.jpg"
+                alt="Photo"
+                width="560"
+              />
+            </div>
+            <div class="item">
+              <img
+                srcset="
+                  ./image/image130-2x.jpg 2x,
+                  ./image/image130-3x.jpg 3x,
+                  ./image/image130-4x.jpg 4x
+                "
+                src="./image/image130-1x.jpg"
+                alt="Photo"
+                width="560"
+              />
+            </div>
+            <div class="item">
+              <img
+                srcset="
+                  ./image/image131-2x.jpg 2x,
+                  ./image/image131-3x.jpg 3x,
+                  ./image/image131-4x.jpg 4x
+                "
+                src="./image/image131-1x.jpg"
+                alt="Photo"
+                width="560"
+              />
+            </div>
+            <div class="item">
+              <img
+                srcset="
+                  ./image/image132-2x.jpg 2x,
+                  ./image/image132-3x.jpg 3x,
+                  ./image/image132-4x.jpg 4x
+                "
+                src="./image/image132-1x.jpg"
+                alt="Photo"
+                width="560"
+              />
+            </div>
+            <div class="item">
+              <img
+                srcset="
+                  ./image/image133-2x.jpg 2x,
+                  ./image/image133-3x.jpg 3x,
+                  ./image/image133-4x.jpg 4x
+                "
+                src="./image/image133-1x.jpg"
+                alt="Photo"
+                width="560"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- <div class="group">
+      <div
+        class="item"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+        "
+      ></div>
+      <div
+        class="item"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1543357530-d91dab30fa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+        "
+      ></div>
+    </div> -->
+        <script src="./js/script.js"></script>
+      </body>
+    </html>
   </body>
 </html>
